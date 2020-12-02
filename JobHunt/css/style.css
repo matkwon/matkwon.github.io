@@ -140,8 +140,12 @@ select {
     position:relative;
     background-color: #8EC75A;
     margin:0;
-    width:20%;
-    height:50%;
-    left:85%;
+    width:19%;
+    height:55%;
+    left:88%;
     bottom:1rem;
+}
+
+.details_next {
+    width:50%;
 }
