@@ -9,7 +9,7 @@ document.addEventListener('DOMContentLoaded', function() {
     salarios2 = ['5000,00', '3700,00', '1980,00']
 
     prev1 = "form.html"
-    prev2 = "form_familia.html"
+    prev2 = "form2.html"
 
     empresas = document.querySelectorAll('.empresa')
     cargos = document.querySelectorAll('.cargo')
