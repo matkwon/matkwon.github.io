@@ -48,7 +48,7 @@ document.addEventListener('DOMContentLoaded', function() {
         submit = document.querySelector('.next')
         submit.href = ''
         submit.style.backgroundColor = 'gray'
-        if (idade.value!='' && area.value!='Área' && job.value!='Emprego específico' &&
+        if (parseFloat(idade.value)>=18 && area.value!='Área' && job.value!='Emprego específico' &&
             interest.value!='Áreas de interesse' && hobby.value!='Hobby') {
 
             if (caso == 'Estágio') {submit.href = 'opcoes.html'}
