@@ -20,18 +20,18 @@ document.addEventListener('DOMContentLoaded', function() {
     if (caso == 'Estágio') {
 
         for (i=0; i<empresas.length; i++) {
-            empresas[i].innerHTML = empresas1[i]
-            cargos[i].innerHTML += cargos1[i]
-            salarios[i].innerHTML += salarios1[i]
+            empresas[i].innerHTML = (empresas[i].innerHTML).replace('#', empresas1[i])
+            cargos[i].innerHTML = (cargos[i].innerHTML).replace('#', cargos1[i])
+            salarios[i].innerHTML = (salarios[i].innerHTML).replace('#', salarios1[i])
         }
         voltar.href = prev1
 
     } else {
 
         for (i=0; i<empresas.length; i++) {
-            empresas[i].innerHTML = empresas2[i]
-            cargos[i].innerHTML += cargos2[i]
-            salarios[i].innerHTML += salarios2[i]
+            empresas[i].innerHTML = (empresas[i].innerHTML).replace('#', empresas2[i])
+            cargos[i].innerHTML = (cargos[i].innerHTML).replace('#', cargos2[i])
+            salarios[i].innerHTML = (salarios[i].innerHTML).replace('#', salarios2[i])
         }
         voltar.href = prev2
 

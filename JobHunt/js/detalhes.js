@@ -10,13 +10,13 @@ document.addEventListener('DOMContentLoaded', function() {
     if (caso == 'Estágio') {
 
         for (i=0; i<info.length; i++) {
-            info[i].innerHTML += caso1[i]
+            info[i].innerHTML = (info[i].innerHTML).replace('#', caso1[i])
         }
 
     } else {
 
         for (i=0; i<info.length; i++) {
-            info[i].innerHTML += caso2[i]
+            info[i].innerHTML = (info[i].innerHTML).replace('#', caso2[i])
         }
 
     }
