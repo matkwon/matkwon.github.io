@@ -2,11 +2,11 @@ document.addEventListener('DOMContentLoaded', function() {
 
     empresas1 = ['XP Inc.', 'MF S.A.', 'Trade & Co.']
     cargos1 = ['Estágio em finanças', 'Consultor jr.', 'Trainee']
-    salarios1 = ['2500', '4100', '2070']
+    salarios1 = ['2500,00', '4100,00', '2070,00']
 
     empresas2 = ['Advogados S.A.', 'Law & Co.', 'Justiça Ltda.']
     cargos2 = ['Supervisor', 'Consultor jr.', 'Trainee']
-    salarios2 = ['5000', '3700', '1980']
+    salarios2 = ['5000,00', '3700,00', '1980,00']
 
     prev1 = "form.html"
     prev2 = "form_familia.html"
